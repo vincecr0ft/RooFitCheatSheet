@@ -274,7 +274,7 @@ Various minimizers are available through the minuit package, these can act on al
 m  = ROOT.RooMinimizer(nll)\\
 m.migrad() \hfill\cmt{efficient and fast, struggles with nonlinearities}\\
 m.hesse()\hfill\cmt{calculates the full error matrix from second derivatives}\\
-m.minos(ParametersOfInterest)\hfill\cmt{correct even non-parabolic, but slow}
+m.minos(ParametersOfInterest)\hfill\cmt{correct even if non-parabolic, but slow}
 }
 \end{tcolorbox}
 
