@@ -44,7 +44,7 @@
 %% 07. April 2011: Fixed paper size handling
 %%     - Fixed Paper Size handling, you can now specify all page sizes using paperwidth=, paperheight= class options.
 %%     - Added rudimentary documentation of the available keys.
-%% 11. December 2010: Fixed ``Empty Second Page'' bug
+%% 11. December 2010: Fixed "Empty Second Page" bug
 %%     - A second empty page was introduced when a document ended with
 %%           \end{poster}
 %%         \end{document}
@@ -65,13 +65,13 @@
 %%        - movebody=Xpt: move the text/poster body Xpt to the right
 %%                    (or to the left if Xpt is negative),
 %%                    e.g. for manually centering the poster on the page
-%%        - showframe: use the ``showframe'' option of the ``geometry'' package
+%%        - showframe: use the "showframe" option of the "geometry" package
 %%        - a0paper (default): set paper size to A0
 %%        - archE: set paper size to Arch E
-%%     - setting ``background'' can be ``none'' now (otherwise the ``showframe''
+%%     - setting "background" can be "none" now (otherwise the "showframe"
 %%          option has no effect)
 %%     - the page number has been removed (it was mostly not visible before)
-%%     - the ``margin='' option works now
+%%     - the "margin=" option works now
 %% 04. December 2008
 %%     - Mainly an update to the landscape example
 %% 14. November 2008
@@ -948,7 +948,7 @@
         }{ %% height=auto or fixed%
           \debug{height=auto or fixed}%
           \path[shape=coordinate] (\baposter@box@name nw) ++(\boxwidth,-\boxheight)                                coordinate(\baposter@box@name se);%
-            }}}}}%
+	  }}}}}%
 %
         %
     % Set coordinates relative to nw,se%
@@ -1092,4 +1092,3 @@
  % \xkvview{}
  \par
   }% END poster end
-
